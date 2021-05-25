@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "axios": "^0.21.1",
+    "clusters": "^0.0.4"
+  }
+}
