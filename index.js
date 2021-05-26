@@ -20,11 +20,13 @@ const main = async (id, count) => {
 
     console.log(`Worker ${workerId}: [${process.pid}] is running`);
 
-    const threadCount = count / forks;
+    const threadCount = Math.ceil(count / forks);
     const startId = (id += threadCount * (workerId - 1));
 
     await scraper(startId, threadCount, workerId);
+
+    cluster.worker.disconnect();
   }
 };
 
-main(37858974, 10000);
+main(40560097, 20000);

@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "axios": "^0.21.1",
-    "clusters": "^0.0.4"
+    "clusters": "^0.0.4",
+    "csv-write-stream": "^2.0.0"
   }
 }
