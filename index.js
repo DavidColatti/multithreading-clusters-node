@@ -29,4 +29,4 @@ const main = async (id, count) => {
   }
 };
 
-main(40560097, 20000);
+main(57939631, 10000);
